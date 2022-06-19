@@ -41,7 +41,7 @@ export { default as Changan } from "./Changan";
 export { default as Chery } from "./Chery";
 export { default as Chevrolet } from "./Chevrolet";
 export { default as Chrome } from "./Chrome";
-export { default as Ciroen } from "./Ciroen";
+export { default as Citroen } from "./Citroen";
 export { default as CocaCola } from "./CocaCola";
 export { default as Codepen } from "./Codepen";
 export { default as Codewars } from "./Codewars";

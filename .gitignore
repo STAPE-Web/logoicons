@@ -1,9 +1,3 @@
-/dist
-/src
 /node_modules
-.babelrc
-/package-lock.json
-/package.json
-/package-lock.json
-/README.md
-/rollup.config.js
+/index.html
+/logoicons-1.0.0.tgz
