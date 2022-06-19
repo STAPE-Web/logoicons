@@ -1,0 +1,34 @@
+{
+  "name": "logoicons",
+  "version": "1.0.0",
+  "description": "This is an icon library. Company logos, programming language logos and more.",
+  "keywords": [
+    "React",
+    "SVG",
+    "Icons"
+  ],
+  "module": "dist/index.esm.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "prebuild": "rimraf src && rimraf dist",
+    "build": "npm run svgr && rollup -c",
+    "svgr": "svgr --icon --title-prop --replace-attr-values '#1D1D1D=currentColor' -d src -- assets"
+  },
+  "author": "STAPE",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.18.5",
+    "@babel/preset-env": "^7.18.2",
+    "@babel/preset-react": "^7.17.12",
+    "@rollup/plugin-babel": "^5.3.1",
+    "@svgr/cli": "^6.2.1",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.75.6",
+    "rollup-plugin-filesize": "^9.1.2"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.18.3"
+  }
+}
