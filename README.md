@@ -1,5 +1,4 @@
-##logoicons
-
+## logoicons
 icons: [https://stape-web.github.io/logoicons/](https://stape-web.github.io/logoicons/)
 
 ```sh
